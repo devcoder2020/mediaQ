@@ -1,0 +1,160 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+ 
+}
+
+h1 {
+    font-size: 6em;
+    text-align: center;
+    padding: 25px 0;
+}
+
+nav {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0 10px;
+}
+
+ul {
+  
+    display: flex;
+    flex-grow: 1;
+    max-width: 50%;
+    justify-content: space-evenly;
+    text-align:center;
+
+}
+
+ul, li {
+    display: inline;
+    margin: 0;
+    padding: 0 30px;
+}
+@media (min-width: 1500px) and (max-width: 2500px){
+    body {
+        background-color: darkorchid;
+    }
+    h1 {
+        color: red;
+        background-color: darkgray;
+    }
+}
+@media (max-width: 1500px){
+    body{
+        background-color: cadetblue;
+    }
+    h1{
+        color:aquamarine;
+        font-size:1.75em;
+    }
+
+}
+
+@media (max-width: 968px){
+    ul {
+        
+        display: flex;
+        flex-grow: 1;
+        max-width: 50%;
+        justify-content: space-evenly;
+        flex-direction: column;
+        text-align: left;
+    }
+}
+@media (max-width: 750px){
+    body {
+        background-color: blue;
+    }
+    h1{
+        color: orangered;
+    }
+}
+@media (max-width: 542px) {
+    body {
+        background-color: red;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+
+    }
+
+    ul li a {
+        list-style: none;
+        text-decoration: none;
+    }
+    ul li {
+        font-size: .75em;
+    }
+}
+
+@media (max-width: 500px) {
+    body {
+        background-color: blue;
+    }
+    h1 {
+        background-color: aquamarine;
+        color: #fff;
+        font-size: 0.55em;
+    }
+
+    p {
+        visibility: visible;
+    }
+}
+
+@media (max-width: 450px) {
+    body {
+        background-color: indianred;
+    }
+
+    ul li {
+        font-size: .45em;
+    }
+}
+
+@media (max-width: 350px) {
+    body {
+        background-color: blue;
+    }
+    ul li {
+        font-size: .15em;
+    }
+}
+
+@media (max-width: 286px) {
+    p {
+        background-color: lightcoral;
+        color: #000;
+    }
+}
+
+@media (max-width: 280px) and (orientation: portrait) {
+    body {
+        background-color: mediumvioletred;
+    }
+
+    h1 {
+        background-color: #000;
+    }
+
+    ul li {
+        font-size: .05em;
+    }
+}
+
+footer p{
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+}
+
+footer p a{
+    background-color: greenyellow;
+}
+
+
